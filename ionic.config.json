@@ -1,0 +1,7 @@
+{
+  "name": "FarmaciaUniacc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
