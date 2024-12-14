@@ -9,29 +9,17 @@ Bienvenido a **Farmacia Uniacc**, una aplicación de **delivery** de farmacia di
 ### Pantallas Principales:
 A continuación, puedes ver capturas de las principales pantallas de la aplicación ejecutándose en un iPhone 14 Pro Max:
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px;">
+  <p><strong>Pantalla de Inicio</strong></p>
+  <img src="./src/assets/screenshots/inicio.PNG" alt="Pantalla de Inicio">
 
-  <div style="flex: 1 1 calc(25% - 16px); max-width: calc(25% - 16px); text-align: center;">
-    <img src="./src/assets/screenshots/inicio.PNG" alt="Pantalla de Inicio" style="max-width: 50px; max-height: 109px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <p><strong>Pantalla de Inicio</strong></p>
-  </div>
+  <p><strong>Marketplace</strong></p>
+  <img src="./src/assets/screenshots/buscar.PNG" alt="Marketplace">
 
-  <div style="flex: 1 1 calc(25% - 16px); max-width: calc(25% - 16px); text-align: center;">
-    <img src="./src/assets/screenshots/buscar.PNG" alt="Marketplace" style="max-width: 50px; max-height: 109px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <p><strong>Marketplace</strong></p>
-  </div>
-
-  <div style="flex: 1 1 calc(25% - 16px); max-width: calc(25% - 16px); text-align: center;">
-    <img src="./src/assets/screenshots/carrito.PNG" alt="Carrito" style="max-width: 50px; max-height: 109px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <p><strong>Carrito</strong></p>
-  </div>
-
-  <div style="flex: 1 1 calc(25% - 16px); max-width: calc(25% - 16px); text-align: center;">
-    <img src="./src/assets/screenshots/confirmacion.PNG" alt="Confirmación" style="max-width: 50px; max-height: 109px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <p><strong>Confirmación</strong></p>
-  </div>
-
-</div>
+  <p><strong>Carrito</strong></p>
+  <img src="./src/assets/screenshots/carrito.PNG" alt="Carrito">
+  
+  <p><strong>Confirmación</strong></p>
+  <img src="./src/assets/screenshots/confirmacion.PNG" alt="Confirmación">
 
 ---
 
