@@ -9,17 +9,29 @@ Bienvenido a **Farmacia Uniacc**, una aplicación de **delivery** de farmacia di
 ### Pantallas Principales:
 A continuación, puedes ver capturas de las principales pantallas de la aplicación ejecutándose en un iPhone 14 Pro Max:
 
-- **Pantalla de Inicio**  
-  ![Pantalla de Inicio](assets/screenshots/inicio.png)
+<div style="display: flex; flex-wrap: wrap; gap: 16px;">
 
-- **Pantalla de Buscar (Marketplace)**  
-  ![Marketplace](assets/screenshots/buscar.png)
+  <div style="flex: 1 1 calc(25% - 16px); max-width: calc(25% - 16px); text-align: center;">
+    <img src="assets/screenshots/inicio.png" alt="Pantalla de Inicio" style="max-width: 200px; max-height: 436px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <p><strong>Pantalla de Inicio</strong></p>
+  </div>
 
-- **Pantalla de Carrito**  
-  ![Carrito](assets/screenshots/carrito.png)
+  <div style="flex: 1 1 calc(25% - 16px); max-width: calc(25% - 16px); text-align: center;">
+    <img src="assets/screenshots/buscar.png" alt="Marketplace" style="max-width: 200px; max-height: 436px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <p><strong>Marketplace</strong></p>
+  </div>
 
-- **Pantalla de Confirmación**  
-  ![Confirmación](assets/screenshots/confirmacion.png)
+  <div style="flex: 1 1 calc(25% - 16px); max-width: calc(25% - 16px); text-align: center;">
+    <img src="assets/screenshots/carrito.png" alt="Carrito" style="max-width: 200px; max-height: 436px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <p><strong>Carrito</strong></p>
+  </div>
+
+  <div style="flex: 1 1 calc(25% - 16px); max-width: calc(25% - 16px); text-align: center;">
+    <img src="assets/screenshots/confirmacion.png" alt="Confirmación" style="max-width: 200px; max-height: 436px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <p><strong>Confirmación</strong></p>
+  </div>
+
+</div>
 
 ---
 
@@ -33,15 +45,23 @@ A continuación, puedes ver capturas de las principales pantallas de la aplicaci
 
 ### **Pasos de Instalación**
 1. Clonar el repositorio:
-git clone https://github.com/DevMPoveaCL/Farmacia-Uniacc.git
+   ```bash
+   git clone https://github.com/DevMPoveaCL/Farmacia-Uniacc.git
+
 2. Navegar al directorio del proyecto:
-cd Farmacia-Uniacc
+   ```bash
+   cd Farmacia-Uniacc
+
 3. Instalar las dependencias:
-npm install
+   ```bash
+   npm install
+
 4. Ejecutar la aplicación en modo desarrollo:
-ionic serve
+   ```bash
+   ionic serve
 5. Abre tu navegador y navega a la URL (Se recomienda usar Devtools con un Iphone 14 Pro Max en el navegador):
-http://localhost:8100/inicio
+   ```bash
+   http://localhost:8100/inicio
 
 ---
 
