@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/detalle-producto"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="page-title">Su carrito de compras</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="cart-items-container">
+    <ion-list>
+      <ion-item *ngFor="let item of cartItems" lines="none">
+        <ion-thumbnail slot="start">
+          <ion-img [src]="item.image"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+          <h3 class="item-title">{{ item.name }}</h3>
+          <p class="item-subtitle">{{ item.lab }}</p>
+          <p class="item-price">${{ item.price }}</p>
+        </ion-label>
+        <ion-label slot="end" class="item-quantity">x{{ item.quantity }}</ion-label>
+        <ion-button fill="clear" color="secondary" class="edit-button" slot="end">
+          <ion-icon name="create-outline"></ion-icon>
+        </ion-button>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div class="promo-code-container">
+    <ion-item lines="none">
+      <ion-label position="floating" color="primary">Código Promocional</ion-label>
+      <ion-input type="text" [(ngModel)]="promoCode"></ion-input>
+      <ion-button size="small" color="primary" slot="end" (click)="applyPromoCode()">Aplicar</ion-button>
+    </ion-item>
+  </div>
+
+  <div class="total-container">
+    <ion-item lines="none">
+      <ion-label class="total-label">TOTAL</ion-label>
+      <ion-label class="total-amount">${{ total }}</ion-label>
+    </ion-item>
+  </div>
+
+  <div class="checkout-button-container">
+    <ion-button expand="block" routerLink="/checkout" color="primary" (click)="proceedToCheckout()">
+      SIGUIENTE →
+    </ion-button>
+  </div>
+</ion-content>

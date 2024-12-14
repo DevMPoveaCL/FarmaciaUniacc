@@ -1,0 +1,49 @@
+:host {
+    font-family: 'Lexend', sans-serif;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.modal-content {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.modal-description {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: var(--ion-color-medium);
+}
+
+.modal-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+
+    li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        color: var(--ion-color-dark);
+
+        ion-icon {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+
+        span {
+            flex: 1;
+            text-align: left;
+        }
+    }
+}
+
+ion-button {
+    font-size: 1.1rem;
+    border-radius: 8px;
+}

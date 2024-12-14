@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="page-title">Historial de Pedidos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="search-container">
+    <ion-searchbar placeholder="Buscar"></ion-searchbar>
+  </div>
+
+  <div class="filters-container">
+    <ion-segment value="all">
+      <ion-segment-button value="all">
+        <ion-label>Todos los pedidos</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="in-progress">
+        <ion-label>En curso</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="delivered">
+        <ion-label>Entregado</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div class="orders-section">
+    <h3 class="section-title">Recientes</h3>
+    <ion-list>
+      <ion-item *ngFor="let order of orders" lines="none">
+        <ion-thumbnail slot="start">
+          <ion-img [src]="order.image"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+          <p class="order-date">{{ order.date }}</p>
+          <h3 class="order-title">{{ order.title }}</h3>
+          <p class="order-price">${{ order.price }}</p>
+        </ion-label>
+        <ion-button fill="solid" color="primary" slot="end" class="details-button">
+          Ver Detalles
+        </ion-button>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <p class="contact-info">CONTACTO: +56908881985</p>
+  </ion-toolbar>
+</ion-footer>

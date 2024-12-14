@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/buscar"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="page-title">Detalle del Producto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="product-header">
+    <img src="assets/images/med1.png" alt="Metformina" class="product-image" />
+    <h1 class="product-title">Metformina 850mg</h1>
+    <p class="product-subtitle">Laboratorio Chile</p>
+  </div>
+
+  <div class="product-info">
+    <p class="product-price">$1000</p>
+    <ion-button expand="block" color="primary" class=" add-to-cart-button" routerLink="/carrito">
+      Añadir al Carrito
+    </ion-button>
+  </div>
+
+  <div class="product-description">
+    <h2>Descripción</h2>
+    <p>
+      La Metformina es un medicamento utilizado para el tratamiento de la diabetes tipo 2.
+      Ayuda a controlar los niveles de azúcar en la sangre y es altamente recomendado por médicos.
+    </p>
+  </div>
+
+  <div class="product-features">
+    <h2>Características</h2>
+    <ul>
+      <li>Dosis: 850mg</li>
+      <li>Presentación: Caja de 30 comprimidos</li>
+      <li>Fabricante: Laboratorio Chile</li>
+      <li>Indicado para: Diabetes tipo 2</li>
+    </ul>
+  </div>
+</ion-content>

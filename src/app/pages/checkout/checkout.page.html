@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/carrito"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="page-title">Confirmar Compra</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Método de Entrega</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-radio-group [(ngModel)]="metodoEntrega" class="metodo-entrega">
+        <div class="entrega-opciones">
+          <ion-item lines="none">
+            <ion-radio slot="start" value="domicilio"></ion-radio>
+            <ion-label>Envío a domicilio ($2990)</ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-radio slot="start" value="tienda"></ion-radio>
+            <ion-label>Retiro en tienda</ion-label>
+          </ion-item>
+        </div>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="secondary">Dirección de Envío</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label color="primary">DIRECCIÓN: </ion-label>
+        <ion-input placeholder="Ingrese su dirección" [(ngModel)]="direccion"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary">CIUDAD: </ion-label>
+        <ion-input placeholder="Ingrese su ciudad" [(ngModel)]="ciudad"></ion-input>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="secondary">Detalles de Pago</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label color="primary">MÉTODO DE PAGO: </ion-label>
+        <ion-select placeholder="Seleccione" [(ngModel)]="metodoPago">
+          <ion-select-option value="debito">Getnet - Débito / Crédito</ion-select-option>
+          <ion-select-option value="transferencia">Transferencia Bancaria</ion-select-option>
+          <ion-select-option value="usdt">USDT</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Receta Médica</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label>Subir Receta</ion-label>
+        <ion-button color="primary" expand="block" (click)="subirReceta()">Seleccionar Archivo</ion-button>
+        <input type="file" hidden id="receta" (change)="onFileSelected($event)" accept=".pdf,.jpg,.png" />
+      </ion-item>
+      <ion-text *ngIf="archivoReceta">
+        <p>Archivo seleccionado: {{ archivoReceta.name }}</p>
+      </ion-text>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-footer>
+    <ion-toolbar>
+      <ion-button expand="block" color="primary" (click)="confirmarCompra()">
+        Confirmar Compra
+      </ion-button>
+    </ion-toolbar>
+  </ion-footer>
+</ion-content>

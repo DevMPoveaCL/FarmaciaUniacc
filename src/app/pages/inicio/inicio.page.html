@@ -1,0 +1,110 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="page-title">Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <div class="welcome">
+    <h1><strong>¡Hola, Marco!</strong></h1>
+    <ion-searchbar placeholder="Buscar"></ion-searchbar>
+  </div>
+
+  <div class="offers-banner">
+    <ion-card>
+      <ion-card-content>
+        <div class="offer-content">
+          <div class="offer-text">
+            <h1><strong>OFERTAS</strong></h1>
+            <p>50% descuento</p>
+            <ion-button fill="solid" routerLink="/buscar" color="primary" size="small">Ver Ofertas</ion-button>
+          </div>
+          <div class="offer-image">
+            <img src="assets/images/banner-ofertas.png" alt="Ofertas" />
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div class="section-header">
+    <h2>CATEGORÍAS</h2>
+    <ion-button fill="clear" routerLink="/buscar" size="small" color="primary">Ver todas</ion-button>
+  </div>
+  <div class="categories">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="3" class="category-item">
+          <ion-button fill="clear" routerLink="/buscar">
+            <ion-icon slot="icon-only" name="bandage-outline" color="primary"></ion-icon>
+          </ion-button>
+          <p>Medicamentos</p>
+        </ion-col>
+        <ion-col size="3" class="category-item">
+          <ion-button fill="clear" routerLink="/buscar">
+            <ion-icon slot="icon-only" name="flask-outline" color="secondary"></ion-icon>
+          </ion-button>
+          <p>Perfumería</p>
+        </ion-col>
+        <ion-col size="3" class="category-item">
+          <ion-button fill="clear" routerLink="/buscar">
+            <ion-icon slot="icon-only" name="fitness-outline" color="primary"></ion-icon>
+          </ion-button>
+          <p>Suplementos</p>
+        </ion-col>
+        <ion-col size="3" class="category-item">
+          <ion-button fill="clear" routerLink="/buscar">
+            <ion-icon slot="icon-only" name="paw-outline" color="secondary"></ion-icon>
+          </ion-button>
+          <p>Veterinaria</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="section-header">
+    <h2>¡Recomendaciones para ti!</h2>
+    <ion-button fill="clear" routerLink="/buscar" size="small" color="primary">Ver todas</ion-button>
+  </div>
+  <div class="recommendations">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="4">
+          <ion-card>
+            <img src="assets/images/med1.png" alt="Medicamento 1" />
+            <ion-card-content>
+              <h3><strong>Metformina 850mg</strong></h3>
+              <p>Laboratorio Chile</p>
+              <ion-button expand="block" routerLink="/detalle-producto" color="secondary"
+                size="small">$1000</ion-button>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col size="4">
+          <ion-card>
+            <img src="assets/images/med2.png" alt="Medicamento 2" />
+            <ion-card-content>
+              <h3><strong>Migranol 650mg</strong></h3>
+              <p>Laboratorio Bagó</p>
+              <ion-button expand="block" color="secondary" size="small">$3500</ion-button>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col size="4">
+          <ion-card>
+            <img src="assets/images/med3.png" alt="Medicamento 3" />
+            <ion-card-content>
+              <h3><strong>Losartán 50mg</strong></h3>
+              <p>Laboratorio Chile</p>
+              <ion-button expand="block" color="secondary" size="small">$500</ion-button>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="extra-button">
+    <ion-button expand="block" color="primary" (click)="openModal()">¿Cómo comprar?</ion-button>
+  </div>
+</ion-content>

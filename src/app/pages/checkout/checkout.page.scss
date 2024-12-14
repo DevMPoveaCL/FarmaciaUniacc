@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+
+:host {
+    font-family: 'Lexend', sans-serif;
+}
+
+.page-title {
+    font-weight: bold;
+    color: white;
+}
+
+ion-card {
+    margin: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ion-card-title {
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2rem;
+}
+
+ion-button {
+    margin-top: 16px;
+    border-radius: 8px;
+}
+
+ion-text {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.entrega-opciones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.entrega-opciones ion-label {
+    font-size: 1rem;
+    width: 100px;
+}
+
+.entrega-opciones ion-radio {
+
+    background-color: gainsboro;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    --color-checked: #8338ec;
+}

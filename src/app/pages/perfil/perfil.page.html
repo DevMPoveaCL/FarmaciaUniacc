@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="page-title">Mi Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="profile-header">
+    <ion-avatar class="profile-avatar">
+      <img src="assets/images/profile-placeholder.png" alt="Foto de perfil" />
+    </ion-avatar>
+    <h2 class="profile-name">Catherine Zeta-Jones</h2>
+    <p class="profile-email">ktherinez&#64;jones.com</p>
+  </div>
+
+  <ion-list class="profile-options">
+    <ion-item button (click)="editProfile()">
+      <ion-icon slot="start" name="person-outline"></ion-icon>
+      <ion-label>Editar Perfil</ion-label>
+    </ion-item>
+    <ion-item button (click)="changePassword()">
+      <ion-icon slot="start" name="lock-closed-outline"></ion-icon>
+      <ion-label>Cambiar Contraseña</ion-label>
+    </ion-item>
+    <ion-item button (click)="paymentMethods()">
+      <ion-icon slot="start" name="card-outline"></ion-icon>
+      <ion-label>Metodos de Pago</ion-label>
+    </ion-item>
+    <ion-item button (click)="viewHistory()">
+      <ion-icon slot="start" name="time-outline"></ion-icon>
+      <ion-label>Historial de Compras</ion-label>
+    </ion-item>
+    <ion-item button (click)="helpCenter()">
+      <ion-icon slot="start" name="help-circle-outline"></ion-icon>
+      <ion-label>Centro de Ayuda</ion-label>
+    </ion-item>
+    <ion-item button (click)="logout()">
+      <ion-icon slot="start" name="log-out-outline"></ion-icon>
+      <ion-label>Cerrar Sesión</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

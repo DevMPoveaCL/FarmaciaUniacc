@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="modal-title">¿Cómo comprar?</ion-title>
+    <ion-buttons slot="end">
+      <ion-button fill="clear" (click)="dismiss()">
+        <ion-icon name="close-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="modal-content">
+    <p class="modal-description">
+      Para realizar una compra, sigue estos pasos sencillos:
+    </p>
+    <ol class="modal-steps">
+      <li>
+        <ion-icon name="cart-outline" color="primary"></ion-icon>
+        <span>Selecciona el producto que deseas comprar.</span>
+      </li>
+      <li>
+        <ion-icon name="add-circle-outline" color="secondary"></ion-icon>
+        <span>Agrega el producto al carrito.</span>
+      </li>
+      <li>
+        <ion-icon name="card-outline" color="primary"></ion-icon>
+        <span>Procede al pago y completa tus datos.</span>
+      </li>
+    </ol>
+    <ion-button expand="block" color="primary" (click)="dismiss()">Entendido</ion-button>
+  </div>
+</ion-content>

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+
+:host {
+    font-family: 'Lexend', sans-serif;
+}
+
+.page-title {
+    font-weight: bold;
+    color: white;
+}
+
+.search-container {
+    padding: 0 1rem;
+    margin-top: 1rem;
+}
+
+.filters-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.results-info {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--ion-color-medium);
+    margin-bottom: 1rem;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.product-card {
+    --ion-card-border-radius: 12px;
+    text-align: center;
+}
+
+.product-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.product-subtitle {
+    font-size: 0.8rem;
+    color: var(--ion-color-medium);
+    margin-bottom: 0.5rem;
+}
+
+.price-button {
+    font-size: 0.9rem;
+    border-radius: 8px;
+}

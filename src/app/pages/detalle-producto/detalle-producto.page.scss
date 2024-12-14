@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+
+:host {
+    font-family: 'Lexend', sans-serif;
+}
+
+.page-title {
+    font-weight: bold;
+    color: white;
+}
+
+.product-header {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.product-image {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: var(--ion-color-dark);
+}
+
+.product-subtitle {
+    font-size: 1rem;
+    color: var(--ion-color-medium);
+}
+
+.product-info {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--ion-color-success);
+    margin-bottom: 1rem;
+}
+
+.add-to-cart-button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    --border-radius: 8px;
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+}
+
+.product-description,
+.product-features {
+    margin: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-description h2,
+.product-features h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.product-description p,
+.product-features ul {
+    font-size: 1rem;
+    color: var(--ion-color-dark);
+}
+
+.product-features ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.product-features li {
+    margin-bottom: 0.5rem;
+}

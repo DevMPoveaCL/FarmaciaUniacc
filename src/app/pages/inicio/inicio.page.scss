@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+
+:host {
+    font-family: 'Lexend', sans-serif;
+}
+
+.page-title {
+    font-weight: bold;
+    color: white;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.offers-banner ion-card {
+    padding: 1rem;
+    background-color: gainsboro;
+}
+
+.offer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.offer-text {
+    flex: 1;
+    text-align: left;
+}
+
+.offer-text h1 {
+    color: #8338ec;
+}
+
+.offer-image img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.categories ion-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.categories .category-item ion-button {
+    padding: 0;
+}
+
+.categories .category-item ion-icon {
+    font-size: 2rem;
+}
+
+.categories .category-item p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.recommendations img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.recommendations ion-card-content h3 {
+    font-size: 0.9rem;
+}
+
+.recommendations ion-button {
+    margin-top: 0.5rem;
+}
+
+.extra-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    width: 33, 33%;
+    height: 4rem;
+    margin-bottom: 1rem;
+}
