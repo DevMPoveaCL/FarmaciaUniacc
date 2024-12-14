@@ -94,10 +94,9 @@ Durante el desarrollo de la aplicación, nos enfrentamos a diversos retos. A con
 
 ---
 
-
-🌟 **Notas Finales**
-Esta aplicación se encuentra en fase beta y actualmente está optimizada para dispositivos iPhone 14 Pro Max.
-En futuras versiones, se mejorará la responsividad para una amplia gama de dispositivos.
+## 🌟 **Notas Finales**
+- Esta aplicación se encuentra en fase beta y actualmente está optimizada para dispositivos iPhone 14 Pro Max.
+- En futuras versiones, se mejorará la responsividad para una amplia gama de dispositivos.
 
 ---
 
