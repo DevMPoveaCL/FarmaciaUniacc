@@ -1,0 +1,6 @@
+{
+    "appId": "com.uniacc.farmacia",
+    "appName": "Farmacia UNIACC",
+    "webDir": "www",
+    "bundledWebRuntime": false
+}
