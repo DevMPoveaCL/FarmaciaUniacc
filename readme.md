@@ -4,6 +4,14 @@ Bienvenido a **Farmacia Uniacc**, una aplicación de **delivery** de farmacia di
 
 ---
 
+## 📦 **Descargar la Aplicación**
+
+Puedes descargar el APK de la aplicación haciendo clic en el siguiente enlace:
+
+[![Descargar APK](https://img.shields.io/badge/📥-Descargar%20APK-blue?style=for-the-badge&logo=android&logoColor=white)](https://github.com/DevMPoveaCL/FarmaciaUniacc/blob/main/app-debug.apk)
+
+---
+
 ## 📱 **Vista Previa de la Aplicación**
 
 ### Pantallas Principales:
