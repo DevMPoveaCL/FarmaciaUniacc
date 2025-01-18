@@ -6,7 +6,7 @@ Bienvenido a **Farmacia Uniacc**, una aplicación de **delivery** de farmacia di
 
 ## 📦 **Descargar la Aplicación**
 
-Puedes descargar el APK de la aplicación haciendo clic en el siguiente enlace:
+Puedes descargar el APK de la aplicación (Sin firmar) haciendo clic en el siguiente enlace:
 
 [![Descargar APK](https://img.shields.io/badge/📥-Descargar%20APK-blue?style=for-the-badge&logo=android&logoColor=white)](https://github.com/DevMPoveaCL/FarmaciaUniacc/blob/main/app-debug.apk)
 
@@ -98,7 +98,7 @@ Durante el desarrollo de la aplicación, nos enfrentamos a diversos retos. A con
 
 ## 👨‍💻 **Autor**
 
-**Marco Povea:** Desarrollador de la aplicación como parte de un ejercicio práctico en el curso de **Taller de Dispositivos Móviles**.
+**Marco Povea:** Desarrollador de la aplicación como parte de un proyecto asociado a  **Universidad UNIACC**.
 
 ---
 
